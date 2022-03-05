@@ -1,0 +1,65 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html,body
+{
+    width:100%;
+    background-color: #333; 
+    height: 100%;
+   
+}
+
+
+/* 
+Sign Up Form
+*/
+.signup
+{   
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.signup__form
+{   border:2px solid white;
+    width: 40%;
+    height: 60%;
+    padding:2% 5% 5% 5%;
+    border-radius: 10px;
+   /* top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+}
+#fullname 
+{
+    margin-top: 4%;
+    margin-left: 75px;
+    margin-bottom: 2%;
+}#email
+{
+    margin-left:105px;
+    margin-bottom: 2%;
+}
+
+#passwrd
+{
+    margin-left: 80px;
+    margin-bottom: 2%;
+}
+#crfmpasswrd
+{
+    margin-left: 20px;
+    margin-bottom: 4%;
+}
+.submit
+{
+    width:40%;
+    padding:1%;
+    height:1%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
